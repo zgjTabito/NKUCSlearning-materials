@@ -1,0 +1,28 @@
+碰撞
+  1.A C C B B
+长度和密度
+  2.B A ABCD ACD BD
+冰的溶解热
+  3.B B A A A B ABC ACD
+空气比热容
+  4.B C D C B B A C B B C C D B A
+杨氏模量
+  5.B A C BC ABC 
+伏安法测电阻
+  6.D B D A C AB CD
+示波器的使用
+  7.C A B C A 
+直流单臂电桥
+  8.B B C ABD AD 
+直流双臂电桥
+  9.D C B AD ABC 
+分光仪使用
+  10.B A C B ABD 
+衍射光栅
+  11.B C C A B
+牛顿环
+  12.C B C C BCD 
+光谱仪使用和滤光片研究
+  13.B C A B ABC
+迈克尔逊干涉仪
+  14. C C ABCD AC ABD
