@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html style="height: 100%">
+<head>
+    <meta charset="UTF-8">
+    <title>诺贝尔奖得主分布情况</title>
+    <script src="https://cdn.jsdelivr.net/npm/echarts@5.4.2/dist/echarts.min.js"></script>
+</head>
+<body style="height: 100%; margin: 0">
+    <div id="main" style="height: 600px;"></div>
+    <script type="text/javascript">
+        // 基于准备好的dom，初始化echarts实例
+        var myChart = echarts.init(document.getElementById('main'));
+
+        // 诺贝尔奖得主分布数据
+        var option = {
+            title: {
+                text: '诺贝尔奖得主分布情况(部分)',
+                subtext: '各国获得诺贝尔奖的数量',
+                left: 'center',
+                top: '1%',
+                textStyle: {
+                    color: '#333',
+                    fontSize: 24,
+                    fontWeight: 'bold'
+                },
+                subtextStyle: {
+                    color: '#666',
+                    fontSize: 14
+                }
+            },
+            tooltip: {
+                trigger: 'item',
+                backgroundColor: 'rgba(50, 50, 50, 0.8)',
+                formatter: '{a} <br/>{b}: {c} ({d}%)'
+            },
+            legend: {
+                orient: 'vertical',
+                left: '75%',
+                top: 'middle',
+                textStyle: {
+                    fontSize: 12,
+                    color: '#333'
+                }
+            },
+            color: ['#5470C6', '#91CC75', '#FAC858', '#EE6666', '#73C0DE', '#3BA272'],
+            series: [
+                {
+                    name: '诺贝尔奖国家分布',
+                    type: 'pie',
+                    radius: ['40%', '70%'], // 内环半径和外环半径设置，形成环形图
+                    avoidLabelOverlap: false,
+                    label: {
+                        show: true,
+                        formatter: '{b}: {c} ({d}%)',
+                        color: '#000', // 标签字体颜色
+                        fontSize: 14,  // 标签字体大小
+                        fontWeight: 'bold'
+                    },
+                    labelLine: {
+                        show: true,
+                        length: 20,  // 连接线的长度
+                        length2: 10, // 连接线的第二段长度
+                        lineStyle: {
+                            color: '#999', // 连接线颜色
+                            width: 2
+                        }
+                    },
+                    emphasis: {
+                        itemStyle: {
+                            shadowBlur: 20,
+                            shadowOffsetX: 0,
+                            shadowColor: 'rgba(0, 0, 0, 0.5)',
+                            borderWidth: 2,
+                            borderColor: '#fff'
+                        }
+                    },
+                    data: [
+                        { value: 429, name: '美国' },
+                        { value: 132, name: '英国' },
+                        { value: 75, name: '德国' },
+                        { value: 78, name: '法国' },
+                        { value: 36, name: '瑞典' },
+                        { value: 30, name: '日本' }
+                    ]
+                }
+            ]
+        };
+
+        // 使用刚指定的配置项和数据显示图表
+        myChart.setOption(option);
+    </script>
+</body>
+</html>
+

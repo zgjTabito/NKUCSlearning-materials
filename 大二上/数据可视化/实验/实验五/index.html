@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>World Happiness Map</title>
+    <link rel="stylesheet" href="src/css/style.css" />
+    <script src="node_modules/d3/dist/d3.min.js"></script>
+    <script src="https://d3js.org/topojson.v3.min.js"></script>
+  </head>
+  <body>
+    <h1>世界幸福指数地图</h1> <!-- 添加标题 -->
+    <div id="container">
+      <div class="chart-container">
+        <h2 id="map-title">世界地图</h2> <!-- 添加小标题 -->
+        <svg id="map" width="640" height="400"></svg>
+      </div>
+      <div class="chart-container">
+        <h2 id="parcoords-title">平行坐标图</h2> <!-- 添加小标题 -->
+        <svg id="parcoords" width="1280" height="800"></svg>
+      </div>
+      <button id="filterButton">筛选</button>
+      <!-- 添加平行坐标图的容器 -->
+      <div>
+        <label for="column1" id="column1-label">选择列1:</label>
+        <select id="column1">
+            <option value="0">Happiness Average</option>
+            <option value="1">GDP</option>
+            <option value="2">Generosity</option>
+            <option value="3">Health</option>
+            <option value="4">Social_support</option>
+            <option value="5">Perception_of_corruption</option>
+            <option value="6">Freedom</option>
+        </select>
+
+        <label for="column2" id="column2-label">选择列2:</label>
+        <select id="column2">
+          <option value="0">Happiness Average</option>
+          <option value="1">GDP</option>
+          <option value="2">Generosity</option>
+          <option value="3">Health</option>
+          <option value="4">Social_support</option>
+          <option value="5">Perception_of_corruption</option>
+          <option value="6">Freedom</option>
+        </select>
+        <button id="swapButton" class="button toggleSwap">交换列</button>
+        <button id="resetButton" class="button">复原</button>
+        <button id="toggleModeButton">切换模式</button>
+        <button id="clearButton1">清空选择</button>
+    </div>
+    <select for="select" id="metric-select">
+      <option value="Average">Happiness Average</option>
+      <option value="GDP">GDP</option>
+      <option value="Generosity">Generosity</option>
+      <option value="Health">Health</option>
+      <option value="Social_support">Social Support</option>
+      <option value="Perceptions_of_corruption">Perceptions of Corruption</option>
+      <option value="Freedom">Freedom</option>
+  </select>
+      <button id="clearButton">清空选择</button>
+      <div class="chart-container">
+        <h2 id="line-chart-title">折线图</h2> <!-- 添加小标题 -->
+        <svg id="line_chart" width="1280" height="600"></svg>
+      </div>
+    </div>
+    <script src="src/js/script.js"></script>
+    <script src="src/js/par.js"></script>
+    <script src="src/js/line_chart.js"></script> 
+  </body>
+</html>

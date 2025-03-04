@@ -1,0 +1,4 @@
+digraph BTree {
+node0 [label="2, 6"];
+node0 [style=bold];
+}

@@ -1,0 +1,35 @@
+/* 通用样式 */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    text-align: center;
+    padding-top: 20px;
+}
+
+/* 第一个图表的工具提示样式 */
+.tooltip {
+    position: absolute;
+    padding: 10px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    pointer-events: none;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    font-size: 14px;
+    display: none;
+}
+
+/* 第二个图表的工具提示样式 */
+.nobel-tooltip {
+    position: absolute;
+    text-align: center;
+    width: 150px;
+    height: 60px;
+    padding: 8px;
+    font: 12px sans-serif;
+    background: lightsteelblue;
+    border: 0px;
+    border-radius: 8px;
+    pointer-events: none;
+    opacity: 0;
+}
