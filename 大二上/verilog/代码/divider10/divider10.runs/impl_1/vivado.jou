@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.1 (64-bit)
+# SW Build 1846317 on Fri Apr 14 18:55:03 MDT 2017
+# IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
+# Start of session at: Thu Nov 28 21:05:26 2024
+# Process ID: 19696
+# Current directory: D:/verilog/divider10/divider10.runs/impl_1
+# Command line: vivado.exe -log divider10.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source divider10.tcl -notrace
+# Log file: D:/verilog/divider10/divider10.runs/impl_1/divider10.vdi
+# Journal file: D:/verilog/divider10/divider10.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source divider10.tcl -notrace

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.1 (64-bit)
+# SW Build 1846317 on Fri Apr 14 18:55:03 MDT 2017
+# IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
+# Start of session at: Thu Nov 28 19:28:24 2024
+# Process ID: 19168
+# Current directory: D:/verilog/counter8/counter8.runs/synth_1
+# Command line: vivado.exe -log counter8.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source counter8.tcl
+# Log file: D:/verilog/counter8/counter8.runs/synth_1/counter8.vds
+# Journal file: D:/verilog/counter8/counter8.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source counter8.tcl -notrace

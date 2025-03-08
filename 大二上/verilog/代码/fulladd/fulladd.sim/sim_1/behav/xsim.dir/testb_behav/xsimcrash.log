@@ -1,0 +1,73 @@
+Unable to capture context for thread 26160 in process 30328, can not generate back trace
+Unable to capture context for thread 30868 in process 30328, can not generate back trace
+Unable to capture context for thread 16312 in process 30328, can not generate back trace
+Unable to capture context for thread 25044 in process 30328, can not generate back trace
+Unable to capture context for thread 31384 in process 30328, can not generate back trace
+Unable to capture context for thread 26664 in process 30328, can not generate back trace
+Unable to capture context for thread 31880 in process 30328, can not generate back trace
+Unable to capture context for thread 24276 in process 30328, can not generate back trace
+Unable to capture context for thread 4776 in process 30328, can not generate back trace
+Exception at PC 0x00007FFFF965BB93
+Printing stacktrace...
+
+Unable to capture context for thread 16312 in process 30328, can not generate back trace
+Unable to capture context for thread 25044 in process 30328, can not generate back trace
+Unable to capture context for thread 25608 in process 30328, can not generate back trace
+Exception at PC 0x00007FF87969FA4C
+Exception at PC 0x00007FF87969FA4C
+Exception at PC 0x00007FF87969FA4C
+Exception at PC 0x00007FF87969FA4C
+Exception at PC 0x00007FF87969FA4C
+Exception at PC 0x00007FF87969FA4C
+[0]  [0x00007FFFF965BB93]
+[1]  [0x00007FFFF965BB93]
+[2]  [0x00007FFFF965B4A1]
+[3]  [0x00007FFFF965B459]
+[4]  [0x00007FFFF96419FE]
+[5]  [0x00007FFFF9640ED1]
+[6]  [0x00007FFFF9640D76]
+[7]  [0x00007FFFF95E79F6]
+[8]  [0x00007FFFF95D7AFB]
+[9]  [0x00007FFFF96FE90A]
+[10]  [0x00007FFFF9719F87]
+[11]  [0x00007FFFF971A05F]
+[12] (BaseThreadInitThunk+0x1d) [0x00007FF87ADB259D]
+[13] (RtlUserThreadStart+0x28) [0x00007FF87BF4AF38]
+Done
+Exception at PC 0x00007FF87969FA4C
+Exception at PC 0x00007FF87969FA4C
+Exception at PC 0x00007FF87969FA4C
+Exception at PC 0x00007FF87969FA4C
+Exception at PC 0x00007FF87969FA4C
+Exception at PC 0x00007FF87969FA4C
+Exception at PC 0x00007FF87969FA4C
+Exception at PC 0x00007FF87969FA4C
+Exception at PC 0x00007FF87969FA4C
+Exception at PC 0x00007FF87969FA4C
+Exception at PC 0x00007FF87969FA4C
+Exception at PC 0x00007FF87969FA4C
+Exception at PC 0x00007FFFF9361A52
+Attemped to write at address 0x00007FF827B79BA4
+Printing stacktrace...
+
+[0]  [0x00007FFFF9361A52]
+[1]  [0x00007FFFF9361A52]
+[2]  [0x00007FFFF9361AD4]
+[3]  [0x00007FFFF94A3FF7]
+[4]  [0x00007FFFF9389128]
+[5]  [0x00007FFFF963DFB9]
+[6]  [0x00007FFFF980EF23]
+[7]  [0x00007FFFF971B06B]
+[8]  [0x00007FFFF97108AF]
+[9]  [0x00007FFFF9710A32]
+[10] (RtlActivateActivationContextUnsafeFast+0x12f) [0x00007FF87BF18B8F]
+[11] (LdrShutdownProcess+0x176) [0x00007FF87BF41596]
+[12] (RtlExitUserProcess+0xad) [0x00007FF87BF4118D]
+[13] (ExitProcess+0xb) [0x00007FF87ADB7FCB]
+[14] (exit+0x8d) [0x00007FF879CCD7BD]
+[15] (initterm_e+0x25b) [0x00007FF879CCDE3B]
+[16]  [0x00000000004014CD]
+[17]  [0x000000000040151B]
+[18] (BaseThreadInitThunk+0x1d) [0x00007FF87ADB259D]
+[19] (RtlUserThreadStart+0x28) [0x00007FF87BF4AF38]
+Done

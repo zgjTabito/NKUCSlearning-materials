@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/verilog/BCD/BCD.srcs/sources_1/new/BCD.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BCD
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/verilog/BCD/BCD.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

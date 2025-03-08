@@ -1,0 +1,18 @@
+#-----------------------------------------------------------
+# Vivado v2017.1 (64-bit)
+# SW Build 1846317 on Fri Apr 14 18:55:03 MDT 2017
+# IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
+# Start of session at: Sun Nov 17 12:58:49 2024
+# Process ID: 25808
+# Current directory: D:/verilog/adder8
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent22728 D:\verilog\adder8\adder8.xpr
+# Log file: D:/verilog/adder8/vivado.log
+# Journal file: D:/verilog/adder8\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/verilog/adder8/adder8.xpr
+update_compile_order -fileset sources_1
+close [ open D:/verilog/adder8/adder8.srcs/sources_1/new/fulladd.v w ]
+add_files D:/verilog/adder8/adder8.srcs/sources_1/new/fulladd.v
+update_compile_order -fileset sources_1
+remove_files  D:/verilog/adder8/adder8.srcs/sources_1/new/fulladd.v
